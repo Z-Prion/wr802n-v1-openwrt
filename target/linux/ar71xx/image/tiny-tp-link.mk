@@ -503,7 +503,7 @@ endef
 TARGET_DEVICES += tl-wr743nd-v2
 
 define Device/tl-wr802n-v1
-  $(Device/tplink-8mlzma)
+  $(Device/tplink-16mlzma)
   DEVICE_TITLE := TP-LINK TL-WR802N v1
   BOARDNAME := TL-WR802N-v1
   DEVICE_PROFILE := TLWR802
@@ -513,7 +513,7 @@ endef
 TARGET_DEVICES += tl-wr802n-v1
 
 define Device/tl-wr802n-v2
-  $(Device/tplink-8mlzma)
+  $(Device/tplink-16mlzma)
   DEVICE_TITLE := TP-LINK TL-WR802N v2
   BOARDNAME := TL-WR802N-v2
   DEVICE_PROFILE := TLWR802
