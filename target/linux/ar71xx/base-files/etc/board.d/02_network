@@ -144,9 +144,6 @@ ar71xx_setup_interfaces()
 	tl-wa901nd-v5|\
 	tl-wdr3227-v2|\
 	tl-wr703n|\
-	tl-wr802n-v1)
-		ucidef_set_interface_lan_wan "eth1" "eth0"
-		;;
 	tl-wr802n-v2|\
 	tl-wr902ac-v1|\
 	ts-d084|\
@@ -158,6 +155,9 @@ ar71xx_setup_interfaces()
 	wndap360|\
 	wp543)
 		ucidef_set_interface_lan "eth0"
+		;;
+	tl-wr802n-v1)
+		ucidef_set_interface_lan_wan "eth1" "eth0"
 		;;
 	a40|\
 	a60|\
